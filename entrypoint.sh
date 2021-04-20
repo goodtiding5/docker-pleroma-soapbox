@@ -5,7 +5,7 @@ set -e
 WORKDIR=/opt/pleroma
 DATADIR=/var/lib/pleroma
 INSTDIR=/opt/pleroma/instance
-SOAPBOX_FE_VERSION=${SOAPBOX_FE_VERSION:-v1.1.0}
+SOAPBOX_FE_VERSION=${SOAPBOX_FE_VERSION:-latest}
 
 PATH=$PATH:$WORKDIR/bin; export PATH
 

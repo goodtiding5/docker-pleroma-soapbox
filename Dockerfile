@@ -8,7 +8,7 @@ ARG UID=1000
 ARG GID=1000
 ARG HOME=/opt/pleroma
 ARG DATA=/var/lib/pleroma
-ARG SOAPBOX=v1.1.0
+ARG SOAPBOX=v1.2.3
 
 ENV DOMAIN=localhost \
     INSTANCE_NAME="Pleroma" \
